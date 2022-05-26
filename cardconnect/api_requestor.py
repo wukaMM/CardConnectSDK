@@ -1,5 +1,5 @@
 import urllib # noqa
-import urlparse
+from urllib.parse import urlparse
 import base64
 
 from cardconnect import error, http_client, util
