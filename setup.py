@@ -31,5 +31,4 @@ setup(
     packages=['cardconnect', 'cardconnect.test'],
     install_requires=install_requires,
     test_suite='cardconnect.test.all',
-    tests_require=['unittest2', 'mock'],
-    use_2to3=True)
+    tests_require=['unittest2', 'mock'])
